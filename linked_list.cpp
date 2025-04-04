@@ -33,7 +33,11 @@ int LinkedList::get(int pos) {
     return 0;
 }
 
-void LinkedList::print() {}
+void LinkedList::print() {
+    Node* no = this->head;
+    while(no){
+        cout<<"->"<< no->key;
+}
 
 int LinkedList::size() {
     return 0;
