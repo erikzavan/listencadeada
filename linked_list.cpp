@@ -37,6 +37,7 @@ void LinkedList::print() {
     Node* no = this->head;
     while(no){
         cout<<"->"<< no->key;
+        no = no->next;
 }
 
 int LinkedList::size() {
